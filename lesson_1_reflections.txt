@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff showed only lines that had changed, which limited the number of 
+	lines I had to search through. Since the lines were shown on top of each
+	other, I could just scan through both and look for differences.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    - It could show me what kinds of edits other people made successfully in the
+	past, teaching about good coding practices.
+	- It could likewise highlight mistakes made in the past that were reverted.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    Pro:
+	- The breaking points are meaningful and enclose logically contained 
+	boundaries.
+	- Code can compile at each point.
+	Con:
+	- You might be forgetful about committing.
+	- Lose fine-grained history that might be useful if you need to retrace 
+	every single step you did.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    - Google Docs is intended to be easier for non-technical users.
+	- Most documents in Google Docs aren't inter-related, so tracking them
+	together is unnecessary.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    "git log" shows a high-level overview of each commit. Then to see the 
+	details, find the ids for each version from "git log" and "git diff" them.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    With git, I know how to undo a change that caused a problem. If I don't have
+	version control, I have to worry that I'll forget what I did and not be able
+	to undo it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    - Most/all nontrivial coding projects that I do (including for other
+	Udacity courses).
+	- Maybe some of my website HTML/CSS files.
+	- Maybe some personal text files where history information would be useful.
